@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .box {
+    width: auto;
+    margin: 5px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 2px 10px;
+  }
+  
+  #output {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+  }
+  
+  li {
+    margin-right: 10px;
+    border: 1px solid black;
+    
+    
+  }
