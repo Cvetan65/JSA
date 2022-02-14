@@ -2,7 +2,7 @@ $(document).ready(function () {
   fetch('https://dog.ceo/api/breed/hound/images')
     .then((response) => {
       return response.json();
-      console.log('The request faild');
+      
     })
     .then((myJson) => {
       console.log(myJson);
